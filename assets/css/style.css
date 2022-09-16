@@ -1,0 +1,128 @@
+/* generic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    border: none;
+    background-color: #D65246;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #f37368;
+    color: black;
+    cursor: pointer;
+}
+h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    max-width: 100%;
+}
+.container {
+    display: flex;
+    background-color: #ffffff;
+    color: #000000;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.container-img img {
+    width: 20%;
+}
+
+ul,
+a,
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    margin-left: 20px;
+}
+
+nav ul li {
+    margin: 5px;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+nav ul li:nth-child(3) {
+    border-right: 1px solid #f37368;
+}
+
+nav ul li a:hover {
+    color: #D65246
+}
+
+/* section-banner */
+.section-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #7a0f05;
+    padding: 40px;
+}
+
+.container-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-banner h1 {
+    font-size: 2em;
+    color: #FFD205;
+}
+.container-banner p {
+    font-size: 1.2em;
+    color: #f5b8b8;
+}
+
+/* section category */
+.section-category .section-category--items ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.section-category .section-category--items ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7a0f05;
+    margin: 20px;
+    padding: 30px;
+}
+.section-category .section-category--items ul li a{
+    background-color: #FFD205;
+    padding: 20px;
+    margin-top: 10px;
+}
+

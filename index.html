@@ -5,17 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FoodDelivery - Seu app de comida favorito!</title>
+    <!-- Style css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
 
+    <!-- Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
         <div class="container">
-            <div>
+            <div class="container-img">
                 <img src="https://cdn-icons-png.flaticon.com/512/3063/3063822.png" alt="">
             </div>
-            <div>
-                <nav>
+            <div class="container-menuBar">
+                <nav class="menubar-items">
                     <ul>
                         <li><a href="#">Restaurantes</a></li>
                         <li><a href="#">Mercado</a></li>
@@ -23,33 +26,31 @@
                     </ul>
                 </nav>
             </div>
-            <div>
-                <address>Rua João Silva 230/ AP 36b</address>
-            </div>
-            <div>
+            <div class="container-login">
                 <button>Fazer Login</button>
                 <button>Cadastre-se</button>
             </div>
         </div>
     </header>
     <main>
-        <section>
-            <hr>
-            <h1>FoodDelivery</h1>
-            <p>Delivery inteligente - fácil, rápido e barato!</p>
-            <hr>
+        <section class="section-banner">
+            <div class="container-banner">
+                <h1>FoodDelivery</h1>
+                <p>Delivery inteligente - fácil, rápido e barato!</p>
+            </div>
         </section>
-        <section>
+        <section class="section-category">
             <h2>Categorias</h2>
-            <ul>
-                <li><img src="https://cdn-icons-png.flaticon.com/512/737/737967.png" alt="" width="60"><a href="">Fast-food</a></li>
-                <li><img src="https://cdn-icons-png.flaticon.com/512/2515/2515143.png" alt="" width="60"><a href="">Doces e bolos</a></li>
-                <li><img src="https://cdn-icons-png.flaticon.com/512/4727/4727400.png" alt="" width="60"><a href="">Japonesa</a></li>
-                <li><img src="https://cdn-icons-png.flaticon.com/512/993/993687.png" alt="" width="60"><a href="">Cafés</a></li>
-                <li><img src="https://cdn-icons-png.flaticon.com/512/4976/4976897.png" alt="" width="60"><a href="">Mexicana</a></li>
-                <li><img src="https://cdn-icons-png.flaticon.com/512/992/992710.png" alt="" width="60"><a href="">Padarias</a></li>
-            </ul>
-            <hr>
+            <div class="section-category--items">
+                <ul>
+                    <li><img src="https://cdn-icons-png.flaticon.com/512/737/737967.png" alt="" width="60"><a href="">Fast-food</a></li>
+                    <li><img src="https://cdn-icons-png.flaticon.com/512/2515/2515143.png" alt="" width="60"><a href="">Doces e bolos</a></li>
+                    <li><img src="https://cdn-icons-png.flaticon.com/512/4727/4727400.png" alt="" width="60"><a href="">Japonesa</a></li>
+                    <li><img src="https://cdn-icons-png.flaticon.com/512/993/993687.png" alt="" width="60"><a href="">Cafés</a></li>
+                    <li><img src="https://cdn-icons-png.flaticon.com/512/4976/4976897.png" alt="" width="60"><a href="">Mexicana</a></li>
+                    <li><img src="https://cdn-icons-png.flaticon.com/512/992/992710.png" alt="" width="60"><a href="">Padarias</a></li>
+                </ul>
+            </div>
         </section>
         <section>
             <h2>Os mais populares por aqui</h2>
