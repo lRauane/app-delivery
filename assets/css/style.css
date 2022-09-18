@@ -133,10 +133,10 @@ nav ul li a:hover {
     flex-direction: column;
     align-items: center;
     background-color: #7a0f05;
-    width: 300px;
-    height: 260px;
-    margin: 20px;
-    padding: 40px;
+    width: 200px;
+    height: 140px;
+    margin: 40px;
+    padding: 30px;
 }
 
 .section-category--items a {
@@ -159,9 +159,15 @@ nav ul li a:hover {
     box-shadow: rgba(153, 153, 153, 0.459) 1px  4px 5px;
 }
 
-.section-populares .section-populares-items {
+.section-populares .section-populares-items1 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.section-populares .section-populares-items2 {
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
@@ -172,21 +178,23 @@ nav ul li a:hover {
     align-items: center;
     background-color: #ffffff;
     box-shadow: #dfdcda 8px 7px 1px;
-    margin: 30px;
+    margin: 50px;
     padding: 20px;
-    width: 400px;
+    width: 300px;
 }
 
-.section-populares li a {
+.section-populares li a{
     background-color: #FFD205;
     color: #ffffff;
     font-weight: bold;
     padding: 10px;
 }
+.section-populares li a:hover{
+    background-color: #806a08;
+    color: #000000;
+}
 
 /* section store */
-.section-store {}
-
 .section-store .section-store-item {
     display: flex;
     justify-content: space-around;
@@ -228,11 +236,6 @@ nav ul li a:hover {
 }
 
 /* footer */
-#rodape {
-    display: grid;
-    grid-template-columns: (3, 3fr);
-    padding: 20px;
-}
 #rodape p,
 #rodape a{
     color: #000000;
