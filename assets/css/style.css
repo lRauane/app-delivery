@@ -6,15 +6,16 @@
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 button {
     border: none;
     background-color: #D65246;
     color: #ffffff;
-    padding: 10px;
-    margin: 10px;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     border-radius: 10px;
 }
 
@@ -23,7 +24,8 @@ button:hover {
     color: black;
     cursor: pointer;
 }
-h2{
+
+h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,10 +35,21 @@ h2{
     padding: 20px;
 }
 
+h3 {
+    color: #FFD205;
+}
+
+p {
+    color: #ffffff;
+    line-height: 1.2rem;
+}
+
+
 /* Cabeçalho */
 header {
     max-width: 100%;
 }
+
 .container {
     display: flex;
     background-color: #ffffff;
@@ -59,7 +72,7 @@ li {
 
 nav ul {
     display: flex;
-    margin-left: 20px;
+    margin-right: 15px;
 }
 
 nav ul li {
@@ -101,19 +114,21 @@ nav ul li a:hover {
     font-size: 2em;
     color: #FFD205;
 }
+
 .container-banner p {
     font-size: 1.2em;
     color: #f5b8b8;
 }
 
 /* section category */
-.section-category .section-category--items ul{
+.section-category .section-category--items ul {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 30px;
 }
-.section-category .section-category--items ul li{
+
+.section-category .section-category--items ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -123,28 +138,35 @@ nav ul li a:hover {
     margin: 20px;
     padding: 40px;
 }
-.section-category--items a{
+
+.section-category--items a {
     background-color: #FFD205;
     color: #ffffff;
     font-weight: bold;
     padding: 20px;
     margin-top: 10px;
-}.section-category--items a:hover{
+}
+
+.section-category--items a:hover {
     background-color: #806a08;
     color: #000000;
 }
 
 /* section-populares */
-.section-populares{
+.section-populares, 
+.section-city{
     background-color: #eeeeee;
+    box-shadow: rgba(153, 153, 153, 0.459) 1px  4px 5px;
 }
-.section-populares .section-populares-items{
+
+.section-populares .section-populares-items {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.section-populares li{
+
+.section-populares li {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -154,11 +176,85 @@ nav ul li a:hover {
     padding: 20px;
     width: 400px;
 }
-.section-populares li a{
+
+.section-populares li a {
     background-color: #FFD205;
     color: #ffffff;
     font-weight: bold;
     padding: 10px;
-};
+}
 
-/*  */
+/* section store */
+.section-store {}
+
+.section-store .section-store-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-store .section-store-item1,
+.section-store .section-store-item2,
+.section-store .section-store-item3 {
+    width: 350px;
+}
+
+.section-store .section-store-itemS {
+    background-color: #7a0f05;
+    box-shadow: #c7c6c6c0 5px 5px 10px;
+    margin: 30px;
+    padding: 30px;
+    line-height: 50px;
+}
+
+
+.section-city .section-city-items ul {
+    display: flex;
+    justify-content: center;
+}
+
+.section-city .section-city-items ul li {
+    margin: 30px;
+    padding: 20px;
+    background-color: #7a0f05;
+}
+
+.section-city .section-city-items ul li a {
+    color: #FFD205;
+}
+
+.section-city .section-city-items ul li a i {
+    margin: 5px;
+}
+
+/* footer */
+#rodape {
+    display: grid;
+    grid-template-columns: (3, 3fr);
+    padding: 20px;
+}
+#rodape p,
+#rodape a{
+    color: #000000;
+}
+.rodape-finalist{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.rodape-finalist ul li {
+    margin: 30px;
+}
+.rodape-finalist .rodape-redes i{
+   margin-top: 20px;
+   margin-right: 40px;
+   padding: 20px;
+}
+.rodape-finalist p{
+    width: 300px;
+}
+#rodape span a{
+    color:#7a0f05;
+    font-weight: bold;
+}
