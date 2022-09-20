@@ -8,6 +8,7 @@
     <title>FoodDelivery - Seu app de comida favorito!</title>
     <!-- Style css -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
 
     <!-- google fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,7 +28,12 @@
                 <img src="https://cdn-icons-png.flaticon.com/512/3063/3063822.png" alt="">
             </div>
             <div class="container-menuBar">
+
                 <nav class="menubar-items">
+                    <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                        <span id="hamburger"></span>
+                      </button>
+
                     <ul>
                         <li><a href="#">Restaurantes</a></li>
                         <li><a href="#">Mercado</a></li>
@@ -54,7 +60,8 @@
             <div class="section-category--items">
                 <ul>
                     <li><img src="https://cdn-icons-png.flaticon.com/512/737/737967.png" alt="" width="60"><a
-                            href="">Fast-food</a></li>
+                            href="">Fast-food</a>
+                    </li>
                     <li><img src="https://cdn-icons-png.flaticon.com/512/2515/2515143.png" alt="" width="60"><a
                             href="">Doces</a></li>
                     <li><img src="https://cdn-icons-png.flaticon.com/512/4727/4727400.png" alt="" width="60"><a
@@ -74,13 +81,12 @@
             <div class="section-populares-items1">
                 <li><img src="https://cdn-icons-png.flaticon.com/512/1046/1046786.png" alt="" width="60">
                     <a href="">Lanches do josé</a>
+
                 </li>
+
                 <li><img src="https://cdn-icons-png.flaticon.com/512/1772/1772709.png" alt="" width="60"><a
                         href="">Confeitaria da Márcia</a></li>
-                <li><img src="https://cdn-icons-png.flaticon.com/512/1371/1371503.png" alt="" width="60"><a
-                        href="">lachonete do lar</a></li>
-                <li><img src="https://cdn-icons-png.flaticon.com/512/3842/3842478.png" alt="" width="60"><a
-                        href="">Espetinhos da Josefa</a></li>
+
             </div>
             <div class="section-populares-items2">
                 <li><img src="https://cdn-icons-png.flaticon.com/512/1046/1046786.png" alt="" width="60">
@@ -88,10 +94,13 @@
                 </li>
                 <li><img src="https://cdn-icons-png.flaticon.com/512/1772/1772709.png" alt="" width="60"><a
                         href="">Confeitaria da Márcia</a></li>
+
+            </div>
+            <div class="section-populares-item3">
                 <li><img src="https://cdn-icons-png.flaticon.com/512/1371/1371503.png" alt="" width="60"><a
                         href="">lachonete do lar</a></li>
-                <li><img src="https://cdn-icons-png.flaticon.com/512/3842/3842478.png" alt="" width="60"><a
-                        href="">Espetinhos da Josefa</a></li>
+                <li><img src="https://cdn-icons-png.flaticon.com/512/1371/1371503.png" alt="" width="60"><a
+                        href="">lachonete do lar</a></li>
             </div>
         </section>
 
@@ -183,8 +192,10 @@
                         <button><i class="fa-solid fa-cart-shopping"></i></button>
                         <button><i class="fa-solid fa-heart"></i></button>
                     </div>
+
                 </div>
             </div>
+
         </section>
 
         <section class="section-city">
@@ -225,10 +236,13 @@
                 <a href=""><i class="fa-brands fa-twitter"></i></a>
                 <a href=""><i class="fa-brands fa-facebook"></i></a>
             </div>
-            <p>Essa página foi desenvolvida por <span><a href="">Rauane Lima</a> </span>apenas para estudos e sem nenhuma intenção de
+            <p>Essa página foi desenvolvida por <span><a href="">Rauane Lima</a> </span>apenas para estudos e sem
+                nenhuma intenção de
                 venda.</p>
         </div>
     </footer>
+
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
