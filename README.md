@@ -11,7 +11,7 @@
 - JavaScript
 
 # 📍 Explicação do projeto
-- Projeto de um site de delivery dinâmico onde o liente pode escolher pelos melhores restaurantes e os melhores serviços com o sistema de classificação e de qualidade dos serviços
+- Projeto de um site de delivery dinâmico onde o cliente pode escolher pelos melhores restaurantes e os melhores serviços com o sistema de classificação e de qualidade dos serviços.
  
 # 📍 Redes sociais 
  ## Me acompanhe também pelas redes sociais
